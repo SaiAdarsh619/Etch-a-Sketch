@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    box-shadow: 3px 4px 16px 2px rgba(0,0,0,0.48);
+    background-color: black;
+}
+
+.newcanvas {
+    width: 100px;
+    height: 33px;
+    margin-bottom: 20px;
+}
+
+.pixel
+{
+    box-sizing: border-box;
+    float: left;
+}
